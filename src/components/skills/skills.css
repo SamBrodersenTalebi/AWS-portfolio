@@ -1,0 +1,31 @@
+.skills{
+  margin: 0 auto;
+  padding-top:0;
+}
+
+.title{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #cbd4db;
+}
+
+.skillList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skillList li{
+  margin: 0 auto;
+  width:45% 
+}
+
+@media (max-width: 1240px){
+  .skillList li{
+    width:90% 
+  }
+}

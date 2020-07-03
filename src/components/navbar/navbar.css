@@ -1,0 +1,57 @@
+.bg-color{
+  background-color: #cbd4db;
+  height: 150px;
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  margin:20px;
+  width:auto;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color:#387db1 ;
+}
+
+.topnav a{
+  float:left;
+  color: #F9F9F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #6493b4;
+  color: #141414;
+}
+
+@media only screen and (max-width: 432px){
+  .topnav{
+    border-radius: 50px 20px;
+  }
+
+  .topnav a{
+    font-size: 13.5px;
+  }
+
+  .bg-color{
+    height: 110px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .bg-color{
+    height:150px;
+  }
+
+  .topnav a{
+    font-size: 12px;
+  }
+
+}
+
+
