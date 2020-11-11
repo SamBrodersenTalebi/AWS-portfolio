@@ -75,9 +75,9 @@ export default class Portfolio extends React.Component {
           projectname: 'Blog App',
           id: 'S1',
           description:
-            'Created a MERN app where a user can add, delete, comment and like blog posts. In order to use all functionalities a user must login. View video of app at: https://streamable.com/xm780m',
+            'Created a MERN app where a user can add, delete, comment and like blog posts. In order to use all functionalities a user must login.',
           image: '../portfolio/images/blogApp.PNG',
-          link: 'https://github.com/SamBrodersenTalebi/RockPaperScissors',
+          link: 'https://github.com/SamBrodersenTalebi/blogAppFrontend',
         },
         {
           projectname: 'Library App',
@@ -85,7 +85,7 @@ export default class Portfolio extends React.Component {
           description:
             'Created library app using GraphQL and React. A user can add new books, sort books by genre and view recommended books.',
           image: '../portfolio/images/library.PNG',
-          link: 'https://github.com/SamBrodersenTalebi/RockPaperScissors',
+          link: 'https://github.com/SamBrodersenTalebi/libraryGraphQL',
         },
       ],
     };
