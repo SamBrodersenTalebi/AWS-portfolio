@@ -34,7 +34,7 @@ export default class AboutMe extends Component {
               through the projects. Each project consists of context details and
               customer requirements. In doing the projects I have improved my
               innovative ability as you have to come up with creative solutions
-              to the requirement of the project.
+              to complete the requirements of the projects.
             </p>
           </div>
         </div>
